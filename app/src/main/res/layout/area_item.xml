@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/area_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Area : "
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/min_area"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:hint="Min"
+        android:inputType="number"
+        android:layout_below="@+id/area_title"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/min_area"
+        android:layout_alignBaseline="@+id/min_area"
+        android:text="  TO  "
+        android:textStyle="bold" />
+    <EditText
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:hint="Max"
+        android:inputType="number"
+        android:id="@+id/max_area"
+        android:layout_alignBaseline="@+id/min_area"
+        android:layout_toEndOf="@+id/min_area"
+        android:layout_marginStart="80dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/min_area"
+        android:id="@+id/area_error_msg"/>
+</RelativeLayout>

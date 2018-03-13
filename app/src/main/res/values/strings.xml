@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">RealEstateApp</string>
+    <string name="not_login_so_signup">New here? Sign Up Now!</string>
+    <string name="not_signup_so_login">Already registered? Login here!</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="enter_your_phone_number_here">Enter your phone number here</string>
+    <string name="enter_your_name_here">Enter your name here</string>
+    <string name="enter_the_username_here">Enter the username here</string>
+    <string name="enter_the_password_here">Enter the password here</string>
+    <string name="login">LOGIN</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="guest">Guest</string>
+    <string name="login_or_signup">LOGIN / SIGN UP</string>
+    <string name="about_text">This is a Real Estate Application that is created to help people to post their properties for sale or rent or advertise their lands to the professional builders. \n\nHence, it also serves as platform for the people who are in search of houses or office spaces for rental or purchase purposes and makes their work easier.</string>
+
+    <string-array name="property_type">
+        <item>Residential</item>
+        <item>Commercial</item>
+        <item>Agricultural</item>
+        <item>Land</item>
+    </string-array>
+
+    <string-array name="residential_property_type">
+        <item>Apartment</item>
+        <item>House</item>
+        <item>Hostel</item>
+        <item>Penthouse</item>
+        <item>Farmhouse</item>
+    </string-array>
+
+    <string-array name="commercial_property_type">
+        <item>Office Space</item>
+        <item>Guest House</item>
+        <item>Shop</item>
+        <item>Showroom</item>
+        <item>Godown</item>
+        <item>Industrial Shed</item>
+    </string-array>
+
+    <string-array name="occupancy_for">
+        <item>Family</item>
+        <item>Single Men</item>
+        <item>Single Women</item>
+    </string-array>
+
+    <string-array name="tenants_preference">
+        <item>Anyone</item>
+        <item>Working</item>
+        <item>Studying</item>
+    </string-array>
+
+    <string-array name="furnishing_items">
+        <item>AC</item>
+        <item>TV</item>
+        <item>Washing machine</item>
+        <item>Refrigerator</item>
+        <item>Geyser</item>
+        <item>Wardrobe</item>
+        <item>Lights</item>
+        <item>Fans</item>
+        <item>Kitchen</item>
+        <item>Sofa</item>
+        <item>Beds</item>
+    </string-array>
+
+    <string-array name="amenities_items">
+        <item>Parking</item>
+        <item>Wifi</item>
+        <item>Power Backup</item>
+        <item>Waste Disposal</item>
+        <item>Lift</item>
+        <item>Pool</item>
+        <item>Gym</item>
+        <item>Games Arena</item>
+    </string-array>
+
+    <string-array name="occupancy_items">
+        <item>Family</item>
+        <item>Single Men</item>
+        <item>Single Women</item>
+    </string-array>
+
+    <string-array name="constr_status_items">
+        <item>Available</item>
+        <item>Will be available soon</item>
+        <item>Under construction</item>
+    </string-array>
+
+</resources>

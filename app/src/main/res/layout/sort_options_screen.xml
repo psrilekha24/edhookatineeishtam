@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:rowCount="3"
+    android:columnCount="2"
+    android:padding="30dp">
+
+    <LinearLayout
+        android:padding="30dp"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/sort_ratings">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/rating_icon"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ratings"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="30dp"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/sort_date">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/date_icon"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date Posted"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:padding="30dp"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/sort_price_low_to_high">
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/price_icon"/>
+        <ImageView
+            android:layout_marginLeft="54dp"
+            android:layout_width="24dp"
+            android:scaleType="fitXY"
+            android:layout_height="50dp"
+            android:src="@mipmap/up_arrow_icon"/>
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="     Price    Low to High"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:padding="30dp"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/sort_price_high_to_low">
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/price_icon"/>
+        <ImageView
+            android:layout_marginLeft="54dp"
+            android:layout_width="24dp"
+            android:scaleType="fitXY"
+            android:layout_height="50dp"
+            android:src="@mipmap/down_arrow_icon"/>
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="     Price     High to Low"
+            android:layout_marginTop="50dp"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:padding="30dp"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/sort_sqft_low_to_high">
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/sqft_rate_icon"/>
+        <ImageView
+            android:layout_marginLeft="54dp"
+            android:layout_width="24dp"
+            android:scaleType="fitXY"
+            android:layout_height="50dp"
+            android:src="@mipmap/up_arrow_icon"/>
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:text="Rate per sqft   Low to High"
+            android:layout_marginTop="50dp"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:padding="30dp"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/sort_sqft_high_to_low">
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/sqft_rate_icon"/>
+        <ImageView
+            android:layout_marginLeft="54dp"
+            android:layout_width="24dp"
+            android:scaleType="fitXY"
+            android:layout_height="50dp"
+            android:src="@mipmap/down_arrow_icon"/>
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:text="Rate per sqft High to Low"
+            android:layout_marginTop="50dp"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+</GridLayout>

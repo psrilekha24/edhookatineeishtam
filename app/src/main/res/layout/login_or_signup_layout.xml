@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/name_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_your_name_here"
+        android:textSize="20sp"
+        android:inputType="text"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name_text_view"
+        android:hint="@string/enter_your_phone_number_here"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:id="@+id/phone_number_text_view"
+        android:inputType="phone"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone_number_text_view"
+        android:layout_marginTop="15dp"
+        android:hint="@string/enter_the_username_here"
+        android:textSize="20sp"
+        android:id="@+id/username_text_view"
+        android:inputType="text"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username_text_view"
+        android:layout_marginTop="15dp"
+        android:hint="@string/enter_the_password_here"
+        android:textSize="20sp"
+        android:id="@+id/password_text_view"
+        android:inputType="textPassword"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:clickable="true"
+        android:focusable="true"
+        android:textColor="#0000FF"
+        android:text="@string/not_login_so_signup"
+        android:layout_below="@id/password_text_view"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/login_or_signup_textview"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/error_msg"
+        android:textColor="#FF0000"
+        android:textSize="15sp"
+        android:layout_below="@id/login_or_signup_textview"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/error_msg"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/colorAccent"
+        android:textColor="#FFFFFF"
+        android:text="@string/login"
+        android:textSize="20sp"
+        android:id="@+id/login_or_signup_button"/>
+</RelativeLayout>

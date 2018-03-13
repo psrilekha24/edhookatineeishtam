@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical">
+        <include
+            android:id="@+id/purpose_layout"
+            layout="@layout/purpose_layout"/>
+        <include
+            android:id="@+id/location_layout"
+            layout="@layout/location_item"/>
+        <include
+            android:id="@+id/prop_type_layout"
+            layout="@layout/prop_type_item"/>
+        <include
+            android:id="@+id/bedroom_layout"
+            layout="@layout/bedroom_item"/>
+        <include
+            android:id="@+id/budget_layout"
+            layout="@layout/budget_item"/>
+        <include
+            android:id="@+id/area_layout"
+            layout="@layout/area_item"/>
+        <include
+            android:id="@+id/furnishings_layout"
+            layout="@layout/furnishings_item"/>
+        <include
+            android:id="@+id/amenities_layout"
+            layout="@layout/amenities_item"/>
+        <include
+            android:id="@+id/occupancy_layout"
+            layout="@layout/occupancy_item"/>
+        <include
+            android:id="@+id/construction_status_layout"
+            layout="@layout/construction_status_item"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/button_in_layout_end"
+            android:background="@color/colorAccent"
+            android:text="SAVE"/>
+    </LinearLayout>
+</ScrollView>

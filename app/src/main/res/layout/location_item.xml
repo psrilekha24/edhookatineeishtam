@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location : "
+        android:textStyle="bold"
+        android:layout_marginTop="9dp"
+        android:id="@+id/location_title"/>
+    <MultiAutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/location_title"
+        android:id="@+id/locations_list"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/prefer_nearby_locs_box"
+        android:layout_below="@id/locations_list"
+        android:text="Prefer nearby locations"
+        android:checked="true"/>
+</RelativeLayout>

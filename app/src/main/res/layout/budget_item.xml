@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/budget_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Budget : "
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/min_budget"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:hint="Min"
+        android:inputType="number"
+        android:layout_below="@+id/budget_title"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/min_budget"
+        android:layout_alignBaseline="@+id/min_budget"
+        android:text="  TO  "
+        android:textStyle="bold" />
+    <EditText
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:hint="Max"
+        android:inputType="number"
+        android:id="@+id/max_budget"
+        android:layout_alignBaseline="@+id/min_budget"
+        android:layout_toEndOf="@+id/min_budget"
+        android:layout_marginStart="80dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/min_budget"
+        android:id="@+id/budget_error_msg"/>
+</RelativeLayout>

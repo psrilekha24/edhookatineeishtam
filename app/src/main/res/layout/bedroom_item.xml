@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number of Bedrooms :"
+        android:textStyle="bold"
+        android:id="@+id/bedroom_title"
+        android:layout_marginTop="10dp"/>
+    <LinearLayout
+        android:layout_below="@+id/bedroom_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:layout_margin="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/bedroom1"
+            android:gravity="center"
+            android:text="1"
+            android:background="@drawable/button_selector"
+            android:button="@null"
+            android:checked="true"/>
+        <CheckBox
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="2"
+            android:background="@drawable/button_selector"
+            android:button="@null"
+            android:id="@+id/bedroom2" />
+        <CheckBox
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="3"
+            android:background="@drawable/button_selector"
+            android:button="@null"
+            android:id="@+id/bedroom3" />
+        <CheckBox
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="4"
+            android:background="@drawable/button_selector"
+            android:button="@null"
+            android:id="@+id/bedroom4" />
+        <CheckBox
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="4+"
+            android:background="@drawable/button_selector"
+            android:button="@null"
+            android:id="@+id/bedroom5" />
+    </LinearLayout>
+
+</RelativeLayout>

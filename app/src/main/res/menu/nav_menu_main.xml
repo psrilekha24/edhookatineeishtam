@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <item
+        android:checkable="true"
+        android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@mipmap/home_icon"/>
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/group_1">
+        <item
+            android:id="@+id/nav_preferences"
+            android:title="My Preferences"
+            android:icon="@mipmap/preference_icon"/>
+        <item
+            android:id="@+id/my_posted_properties"
+            android:title="My Posted Properties"
+            android:icon="@mipmap/my_prop_icon" />
+    </group>
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_wishlist"
+            android:title="Favourites"
+            android:icon="@mipmap/wishlist_icon"/>
+
+        <item
+            android:id="@+id/nav_contacted_list"
+            android:title="Contacted Properties"
+            android:icon="@mipmap/contacted_icon"/>
+
+        <item
+            android:id="@+id/nav_recent_views"
+            android:title="Recent Views"
+            android:icon="@mipmap/view_icon"/>
+    </group>
+
+
+
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/group_2">
+        <item
+            android:id="@+id/nav_notify_settings"
+            android:title="Notification Settings"
+            android:icon="@mipmap/notify_icon"/>
+        <item
+            android:id="@+id/nav_about"
+            android:title="About"
+            android:icon="@mipmap/about_icon"/>
+    </group>
+
+
+
+
+</menu>

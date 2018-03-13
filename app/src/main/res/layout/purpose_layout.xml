@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Purpose : "
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:id="@+id/purpose_radio_group">
+        <RadioButton
+            android:id="@+id/rent_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rent"
+            android:layout_weight="1"
+            android:checked="true"
+            android:gravity="center"
+            android:background="@drawable/button_selector"
+            android:button="@null"
+            android:textSize="18sp"/>
+        <RadioButton
+            android:id="@+id/buy_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buy"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/button_selector"
+            android:button="@null"
+            android:textSize="18sp"/>
+    </RadioGroup>
+</RelativeLayout>
